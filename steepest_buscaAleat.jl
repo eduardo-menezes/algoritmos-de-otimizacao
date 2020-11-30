@@ -62,8 +62,7 @@ end
 
 # Rotina de Line Search - Golden Search
 # Acha o passo para o mínimo de fun(x) na direção d
-#
-# Eduardo Lenz - Setembro de 2018
+
 function BuscaAleat(d::Array{Float64,1},a::Float64,b::Float64,x::Array{Float64,1},n::Int64)
 
     fr = 100E100

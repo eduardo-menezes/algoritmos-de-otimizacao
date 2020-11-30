@@ -1,8 +1,7 @@
 # Rotina para a determinação do intervalo inicial. Dado o ponto atual x0, uma direção de busca d,
 # uma estimativa inicial de passo delta, uma função objetivo fun e uma tolerância, devolve o
 # intervalo que deve conter o alpha ótimo.
-#
-# Eduardo Lenz - setembro de 2018
+
 #
 # fun -> função com entrada x::Array{Float64,1}
 # x0 -> ponto atual

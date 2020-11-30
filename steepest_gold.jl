@@ -1,8 +1,7 @@
 # Rotina para a determinação do intervalo inicial. Dado o ponto atual x0, uma direção de busca d,
 # uma estimativa inicial de passo delta, uma função objetivo fun e uma tolerância, devolve o
 # intervalo que deve conter o alpha ótimo.
-#
-# Eduardo Lenz - setembro de 2018
+
 #
 # fun -> função com entrada x::Array{Float64,1}
 # x0 -> ponto atual
@@ -65,7 +64,7 @@ end
 # Rotina de Line Search - Golden Search
 # Acha o passo para o mínimo de fun(x) na direção d
 #
-# Eduardo Lenz - Setembro de 2018
+
 function LS_GS(d::Array{Float64,1},a::Float64,b::Float64,x::Array{Float64,1})
 
        # Vamos garantir que o usuário não seja uma anta
